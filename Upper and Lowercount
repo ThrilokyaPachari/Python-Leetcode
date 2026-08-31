@@ -1,0 +1,12 @@
+
+Upper=[]
+Lower=[]
+items = input("Enter the prompt")
+for x in items:
+    if x.isupper():
+        Upper.append(x)
+    else:
+        Lower.append(x)
+u=len(Upper)
+l=len(Lower)
+print(u,l)
