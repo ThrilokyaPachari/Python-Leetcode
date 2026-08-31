@@ -1,0 +1,9 @@
+import math 
+c=10
+h=20
+values=[]
+items=input.split(",")
+for d in items:
+    q=round(math.sqrt(c*h*float(d))/h)
+    values.append(q)
+print(values)
