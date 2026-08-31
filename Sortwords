@@ -1,0 +1,3 @@
+l=input("enter the words").split(",")
+l.sort()
+print(l)
