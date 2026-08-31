@@ -1,0 +1,11 @@
+balance = 0
+s=input("enter the log").split("")
+def amountleft():
+    if s[0]=="w":
+      balance+=s[1]
+    else if s[0]=="D" :
+      balance-=s[1]
+return balance
+print(amountleft(s))
+
+
