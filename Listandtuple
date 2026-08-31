@@ -1,0 +1,4 @@
+def listandtuple(n)
+  print(n)
+  print(tuple(n))
+listandtuple(input("Enter the numbers").split(","))
