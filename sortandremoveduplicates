@@ -1,0 +1,4 @@
+l=input("Enter the words").split("")
+l=set(l)
+l=sorted(l)
+print(l)
