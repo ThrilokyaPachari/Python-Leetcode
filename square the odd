@@ -1,0 +1,7 @@
+x=input("enter the numbers").split(",")
+values=[]
+for i in x:
+    i=int(i)
+    if i%2!=0:
+       values.append(i*i)
+print(values)
