@@ -1,0 +1,10 @@
+def matrix(x,y):
+   out=[]
+   for i in range(x):
+      row=[]
+      for j in range(y):
+         row.append(i*j)
+      out.append(row)
+print(out)
+x,y=map(int,input("Enter x and y").split(","))
+matrix(x,y)
