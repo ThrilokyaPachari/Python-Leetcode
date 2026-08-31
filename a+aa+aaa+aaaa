@@ -1,0 +1,5 @@
+x=int(input("Enter the value"))
+def add(x):
+    value=x+(11*x)+(111*x)+(1111*x)
+    return value
+print(add(x))
