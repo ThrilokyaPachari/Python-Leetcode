@@ -1,0 +1,11 @@
+Letters=[]
+Digits=[]
+items=input("enter the string")
+for i in items:
+   if i.isdigit():
+      Digits.append(i)
+   else:
+      Letters.append(i)
+print(l,d)
+      
+    
