@@ -1,0 +1,14 @@
+Students=[]
+n=int(input())
+for i in range(n):
+    name,age,score = input().split(",")
+    Students.append((name,age,score))
+def sort(Student):
+    return (Student[0],int(Student[1]),int(Student[2]))
+Students.sort(keys=sort)
+print(Students)
+
+
+
+
+  
