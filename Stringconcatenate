@@ -1,0 +1,4 @@
+
+def concantenate(a,b):
+    return a+b
+print(concantenate("Hii","Thrii"))
