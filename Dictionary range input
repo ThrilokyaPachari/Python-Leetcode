@@ -1,0 +1,5 @@
+def keys(dict):
+        for key in dict.keys():
+            if int(key) in range(1,4):
+                    print(dict[key])
+keys({"1":5,"3":6,"4":8}) 
