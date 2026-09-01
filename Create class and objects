@@ -1,0 +1,7 @@
+class person:
+    name="Thrilu"
+def _init_(self,name):
+    self.name=name
+thriname=person("thri")
+print(person.name)
+print(thriname.name)
