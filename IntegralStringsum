@@ -1,0 +1,5 @@
+def sumstring(a,b):
+    a=int(a)
+    b=int(b)
+    return a+b
+print(sumstring("2","3"))
