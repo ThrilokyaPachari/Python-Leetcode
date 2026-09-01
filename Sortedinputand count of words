@@ -1,0 +1,11 @@
+n=input().split()
+frequency={}
+for word in n:
+    if word in frequency:
+         frequency[word]+=1
+    else:
+         frequency[word]=1
+sortedop=sorted(frequency)
+for i in sortedop:
+    print(i,sortedop[i])
+
