@@ -1,0 +1,9 @@
+def printyes(Stringi):
+    if Stringi in ("YES", "yes" , "Yes"):
+         print("YES")
+    else:
+        print("No")
+printyes("NO")
+printyes("yes")
+
+     
